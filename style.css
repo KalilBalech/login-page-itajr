@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: #ccc;
+}
+img{
+    height: 8vh;
+}
+.all-content{
+    border-radius: 200px;
+    margin: 7vh 5vw 17vh 5vw;
+}
+header{
+    display: block;
+    width: 54.8vw;
+    height: 6vh;
+    background-color: white;
+}
+.logo{
+    flex: 56;
+
+}
+.green-header{
+    background-color: #0cca9a;
+    flex: 36;
+}
+.pages{
+    display: flex;
+}
+.left-side-login-page{
+    background-color: white;
+    flex: 56;
+    height: 70vh;
+}
+.right-side-sign-up{
+    background: url("/images/right-page-background-image.png") no-repeat center center/cover;
+    flex: 36;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70vh;
+    color: white;
+    text-align: center;
+}
+.right-title{
+    font-weight: 600;
+    font-size: 3.5rem;
+    margin-bottom: 3.5rem;
+}
+.sign-up-title{
+    margin-bottom: 2rem;
+}
+.right-detail{
+    background-color: white;
+    height: 2px;
+    width: 3vw;
+    border-radius: 2px;
+    margin: auto;
+}
+.right-message{
+    font-size: 1.7rem;
+    font-weight: 100;
+    line-height: 2.5rem;
+}
+.sign-up-button{
+    background: linear-gradient(#0cca8a, #0cca89);
+    border: 2px solid white;
+    padding: 1rem 5rem;
+    color: white;
+    display: inline-block;
+    margin: 5rem auto 6rem auto;
+    width: fit-content;
+    border-radius: 2rem;
+}
