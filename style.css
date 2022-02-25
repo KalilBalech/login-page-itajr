@@ -248,6 +248,7 @@ a#policy:hover{
 .right-message{
     font-size: 3vh;
     line-height: 2.5rem;
+    padding: 1vw;
 }
 .sign-up-button{
     background: linear-gradient(#0cca8a, #0cca89);
