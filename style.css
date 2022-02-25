@@ -8,14 +8,21 @@ html{
     font-size: 62.5%;
 }
 body{
-    background-color: #ccc;
+    background: url("/images/body-background-image.png");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
 }
-img{
-    height: 8vh;
+img.logo{
+    margin-left: 20px;
 }
+
 .all-content{
-    border-radius: 200px;
+    border-radius: 20px;
     margin: 7vh 5vw 17vh 5vw;
+    /*border: 3px solid black;*/
+    overflow: hidden;
+    box-shadow: 3px 3px 3px grey;
 }
 header{
     display: block;
@@ -34,11 +41,102 @@ header{
 .pages{
     display: flex;
 }
+/*LEFT SIDE ------------------------------------------------------ */ 
 .left-side-login-page{
     background-color: white;
     flex: 56;
     height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+.left-title{
+    margin-bottom: 3rem;
+}
+.sign-in-title{
+    color: #0cca89;
+    font-size: 3.5rem;
+    margin-bottom: 3.5rem;
+    font-weight: bolder;
+}
+.left-detail{
+    background-color: #0cca89;
+    height: 3px;
+    width: 3vw;
+    border-radius: 2px;
+    margin: auto;
+}
+img.icon{
+    width: 100%;
+}
+.social-media div{
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 100%;
+    overflow: hidden;
+    padding: 3px;
+    margin-left: 10px;
+    height: 4rem;
+    width: 4rem;
+}
+img.facebook{
+    padding-left: 12rem;
+}
+img.linkedin{
+    height:2.5rem;
+    margin-bottom: 3px;
+    width: 80%;
+    align-self: center;
+}
+img.google{
+    width: 100%;
+    height: 2.7rem;
+}
+div.google{
+    border-radius: 70%;
+    padding: 3px;
+}
+.social-media{
+    margin-bottom: 3rem;
+}
+.form{
+    width: 20vw;
+}
+.form-subtitle{
+    text-align: center;
+    color:#999;
+    letter-spacing: 0.1rem;
+    font-weight: lighter;
+}
+.email-field{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+label{
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    color: #0cca89;
+}
+input#email{
+    width:100%;
+    padding: 0.8rem;
+    border: 2px solid #0cca89;
+    border-radius: 5px;
+    outline: none; /* remove a borda on focus*/
+}
+input#password{
+    width:100%;
+    padding: 0.8rem;
+    border: 2px solid #0cca89;
+    border-radius: 5px;
+    outline: none; /* remove a borda on focus*/
+    margin-bottom: 1rem;
+}
+input#rememberMe{
+    font-size: 2rem;
+}
+/*RIGHT SIDE ------------------------------------------------------ */ 
 .right-side-sign-up{
     background: url("/images/right-page-background-image.png") no-repeat center center/cover;
     flex: 36;
@@ -51,7 +149,7 @@ header{
     text-align: center;
 }
 .right-title{
-    font-weight: 600;
+    
     font-size: 3.5rem;
     margin-bottom: 3.5rem;
 }
@@ -60,14 +158,13 @@ header{
 }
 .right-detail{
     background-color: white;
-    height: 2px;
+    height: 3px;
     width: 3vw;
     border-radius: 2px;
     margin: auto;
 }
 .right-message{
     font-size: 1.7rem;
-    font-weight: 100;
     line-height: 2.5rem;
 }
 .sign-up-button{
@@ -79,4 +176,18 @@ header{
     margin: 5rem auto 6rem auto;
     width: fit-content;
     border-radius: 2rem;
+    cursor: pointer;
+}
+.sign-up-button:hover{
+    background: white;
+    border: 2px solid white;
+    padding: 1rem 5rem;
+    color: #0cca8a;
+    font-weight: bolder;
+    display: inline-block;
+    margin: 5rem auto 6rem auto;
+    width: fit-content;
+    border-radius: 2rem;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px grey;
 }
