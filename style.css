@@ -257,22 +257,22 @@ a#policy:hover{
     color: white;
     display: inline-block;
     margin: 5rem auto 6rem auto;
+    font-weight: bolder;
     width: fit-content;
     border-radius: 2rem;
     cursor: pointer;
 }
 .sign-up-button:hover{
-    background: white;
+    background: linear-gradient(#0cca8a, #0cca89);
     border: 2px solid white;
     padding: 1rem 5rem;
-    color: #0cca8a;
-    font-weight: bolder;
+    color: white;
     display: inline-block;
     margin: 5rem auto 6rem auto;
+    font-weight: bolder;
     width: fit-content;
     border-radius: 2rem;
     cursor: pointer;
-    box-shadow: 2px 2px 2px grey;
 }
 @media (max-width: 1000px) {
 
